@@ -8,7 +8,7 @@ import torchvision
 from torchvision import transforms
 
 from data.dataset import Dataset
-from model.hkudetector import resnet50
+from model.detector import resnet50
 from utils.loss import yololoss
 
 # parse args
@@ -85,7 +85,6 @@ train_dataset = Dataset(args, split='train', transform=[transforms.ToTensor()])
 train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True, num_workers=4)
 
 ###################################################################
-# TODO: Please fill the codes below to initialize the validation dataset
 ##################################################################
 
 val_dataset = Dataset(args, split='val', transform=[transforms.ToTensor()])
@@ -116,7 +115,6 @@ for epoch in range(args.num_epochs):
         total_loss += loss.data
 
         ###################################################################
-        # TODO: Please fill the codes here to complete the gradient backward
         ##################################################################
         
         optimizer.zero_grad()
