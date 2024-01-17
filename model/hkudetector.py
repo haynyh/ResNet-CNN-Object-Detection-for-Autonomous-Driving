@@ -17,7 +17,6 @@ class ResNet(nn.Module):
         self.maxpool = nn.MaxPool2d(kernel_size=3, stride=2, padding=1)
         
         ###################################################################
-        # TODO: Please fill the codes below with the *self._make_layer()* function
         ##################################################################
         
         self.layer1 = self._make_layer(block, 64, layers[0])
@@ -79,7 +78,6 @@ class ResNet(nn.Module):
         x = self.maxpool(x)
 
         ###################################################################
-        # TODO: Please fill the codes below
         ##################################################################
         
         x = self.layer1(x)
