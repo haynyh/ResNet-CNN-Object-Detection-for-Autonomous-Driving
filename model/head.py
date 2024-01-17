@@ -12,9 +12,6 @@ class mmdetection_head(nn.Module):
         self.conv3 = nn.Conv2d(planes, self.expansion * planes, kernel_size=1, bias=True)
 
         ####################################################################
-        # TODO: Please complete the downsample module
-        # Hint: Use a "kernel_size=1"'s convolution layer to align the dimension
-        # Hint: We don't suggest using any batch normalization on detection head.
         #####################################################################
         self.downsample = nn.Sequential()
         if do_downsample or stride != 1 or in_planes != self.expansion * planes:
