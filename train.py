@@ -22,7 +22,7 @@ parser.add_argument('--batch_size', default=12, type=int, help='batch size')
 parser.add_argument('--learning_rate', default=1e-5, type=float, help='learning rate')
 
 parser.add_argument('--seed', default=666, type=int, help='random seed')
-parser.add_argument('--dataset_root', default='./ass1_dataset', type=str, help='dataset root')
+parser.add_argument('--dataset_root', default='./dataset', type=str, help='dataset root')
 parser.add_argument('--output_dir', default='checkpoints', type=str, help='output directory')
 
 parser.add_argument('--l_coord', default=5., type=float, help='hyper parameter for localization loss')
