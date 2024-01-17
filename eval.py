@@ -116,7 +116,7 @@ if __name__ == '__main__':
     parser.add_argument('--yolo_B', default=2, type=int, help='YOLO box num')
     parser.add_argument('--yolo_C', default=5, type=int, help='detection class num')
 
-    parser.add_argument('--dataset_root', default='./ass1_dataset', type=str, help='dataset root')
+    parser.add_argument('--dataset_root', default='./dataset', type=str, help='dataset root')
     parser.add_argument('--split', default='val', type=str, help="dataset split in ['val', 'test']")
     parser.add_argument('--model_path', default="./checkpoints/hku_mmdetector_best.pth", help='Pretrained Model Path')
     parser.add_argument('--output_file', default="./result.pkl", help='PKL for evaluation')
