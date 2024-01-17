@@ -57,9 +57,6 @@ class Bottleneck(nn.Module):
         super(Bottleneck, self).__init__()
         
         ##############################################################
-        # TODO: Please define your layers with the BottleNeck from the paper "Deep Residual Learning for Image Recognition"
-        #
-        # Note: You **must not** use the nn.Conv2d here but use **redefine_conv3x3** and **redefine_conv1x1** in this script instead
         ##############################################################
         
         self.conv1 = redefine_conv1x1(in_planes, planes, stride)
@@ -78,7 +75,6 @@ class Bottleneck(nn.Module):
         residual = x
 
         ##############################################################
-        # TODO: Please write the forward function with your defined layers
         ##############################################################
         
         out = self.conv1(x)
