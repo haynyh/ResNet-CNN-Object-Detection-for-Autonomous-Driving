@@ -5,7 +5,7 @@ import os
 import pickle
 
 from data.dataset import CAR_CLASSES, COLORS, load_json
-from model.hkudetector import resnet50
+from model.detector import resnet50
 from utils.util import *
 
 
@@ -90,8 +90,7 @@ class Evaluation:
                 else:
                     fp[d] = 1
             ###################################################################
-            # TODO: Please fill the codes to compute recall and precision
-            ##################################################################
+            ###################################################################
             
             fp = np.cumsum(fp)
             tp = np.cumsum(tp)
