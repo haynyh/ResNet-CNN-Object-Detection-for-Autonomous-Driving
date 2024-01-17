@@ -41,7 +41,7 @@ if __name__ == '__main__':
     parser.add_argument('--yolo_B', default=2, type=int, help='YOLO box num')
     parser.add_argument('--yolo_C', default=5, type=int, help='detection class num')
 
-    parser.add_argument('--image_path', default="./ass1_dataset/val/image/000001.jpg", help='Path to Image file')
+    parser.add_argument('--image_path', default="./dataset/val/image/000001.jpg", help='Path to Image file')
     parser.add_argument('--model_path', default="./checkpoints/hku_mmdetector_best.pth", help='Pretrained Model Path')
     parser.add_argument('--unsave_img', action='store_true', help='Do not save the image after detection')
     parser.add_argument('--vis_dir', default="./vis_results", help='Dir for Visualization')
