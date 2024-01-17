@@ -289,7 +289,7 @@ def load_json(path):
 def main():
     from torch.utils.data import DataLoader
     import torchvision.transforms as transforms
-    file_root = './ass1_dataset'
+    file_root = './dataset'
     train_dataset = Dataset(root=file_root, split='train',
                             transform=[transforms.ToTensor()])
 #     img,target = train_dataset[0]
