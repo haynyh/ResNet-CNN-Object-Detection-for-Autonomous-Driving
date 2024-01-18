@@ -24,51 +24,28 @@ ResNet CNN: Object Detection for Autonomous Driving <br />
 
 
 
-### Model tuning process
+### Model training process
 
-![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/23b96b85-b943-40a5-9ad7-c70b9758174b)
-
-
-![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/cc844302-3f9b-4174-a1d7-eb892be39317)
+*Training without regularization
+![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/11b230b9-7364-4549-95d9-8f1be71513c2)
 
 
-
-![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/8795b70a-0540-4ba9-a1d1-f18ea609d55a)
-
-
-* Grid search (learning rate) <br />
-![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/742ac65b-6e76-4c45-95b3-a7f81ff9a7f8)
+![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/73128d7c-18b4-4cd3-a2aa-54f253bfab38)
 
 
-
-![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/c2f88075-6591-4b9f-b93a-d68022073130)
-
-
-* Grid search (batch size) <br />
-![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/8030c387-ea48-4907-9fea-026f97195276)
+*Training with regularization
+![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/981a5c05-b6e1-4a89-bca3-56029b328a05)
 
 
-
-![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/a10f2fd8-51d6-46d2-9ce0-5df8a4d17da6)
-
-
-* Grid search (weight decay) <br />
-![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/17c0a61d-f8cb-4a84-a691-df3ec3227ffc)
+![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/b6d2ce17-c38f-463f-9d7f-d535bc4afb7f)
 
 
-
-![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/44afc0f7-d08a-4cca-a90e-44297ca8622e)
-
-
-* Survey Analysis of grid search <br />
-![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/722fbd2c-7bb5-4c83-9f88-1f2ec9bb2e40)
 
 
 <br />
 ### Prediction examples
 
-![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/d38ccba1-1891-4d46-900a-ddd0e50c7200)
+![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/772d1188-df1d-4714-a5f1-b712d655a632)
 
-![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/b31d026c-bfcc-4ad5-a848-cac5966337df)
 
 
