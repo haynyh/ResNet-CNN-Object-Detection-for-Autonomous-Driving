@@ -26,25 +26,25 @@ ResNet CNN: Object Detection for Autonomous Driving <br />
 
 ### Model tuning process
 
-<<<<<<< HEAD
+
 *Training without regularization<br />
 ![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/11b230b9-7364-4549-95d9-8f1be71513c2)
 =======
 ![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/23b96b85-b943-40a5-9ad7-c70b9758174b)
->>>>>>> parent of 982da0a (Update README.md)
+
 
 
 ![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/cc844302-3f9b-4174-a1d7-eb892be39317)
 
 <br />
 
-<<<<<<< HEAD
+
 *Training with regularization<br />
 ![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/981a5c05-b6e1-4a89-bca3-56029b328a05)
 =======
 
 ![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/8795b70a-0540-4ba9-a1d1-f18ea609d55a)
->>>>>>> parent of 982da0a (Update README.md)
+
 
 
 * Grid search (learning rate) <br />
