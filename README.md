@@ -24,7 +24,7 @@ ResNet CNN: Object Detection for Autonomous Driving <br />
 
 
 
-### Model tuning process
+## Model tuning process
 
 
 *Training without regularization<br />
@@ -76,7 +76,7 @@ ResNet CNN: Object Detection for Autonomous Driving <br />
 
 
 <br />
-### Prediction examples
+## Prediction examples
 
 ![image](https://github.com/haynyh/ResNet-CNN-Object-Detection-for-Autonomous-Driving/assets/46237598/d38ccba1-1891-4d46-900a-ddd0e50c7200)
 
